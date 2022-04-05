@@ -151,6 +151,32 @@ background: linear-gradient(90deg, rgba(214,0,0,1) 0%, rgba(255,0,0,1) 100%);
 .fnegro{
   color: #282828;
 }
+.div-imagen{
+  height: 410px;
+}
+.cohete{
+  width: 400px;
+  height: 400px;
+  
+}
+.cohete:hover {
+  width: 420px;
+  height: 420px;
+
+}
+.texto-inicio{
+  color: white;
+  border-radius: 30px;
+  border: solid 1px white;
+}
+.conecer{
+  text-decoration: none;
+  color: #370a6d;
+}
+.conecer:hover {
+  text-decoration: none;
+  color: white;
+}
 
 
 @media (max-width: 450px) {
