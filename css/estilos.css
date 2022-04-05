@@ -6,7 +6,7 @@ body {
 #contacto,
 #inicio,
 #sobre-mi {
-  background-image: url(../images/fondo-contacto.png);
+  background-image:url(../images/fondo-azul.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   font-family: "Montserrat", sans-serif;
@@ -24,11 +24,15 @@ h1 {
 }
 nav .nav-link {
   color: #282828;
+  
 }
+nav .nav-link:hover {
+  color: #FF5400;
 
+}
 nav .active {
   border: 1px solid;
-  border-color: #e20000;
+  border-color: #FF5400;
   border-radius: 20px;
 }
 input,
@@ -44,7 +48,7 @@ p {
   font-size: 16px;
 }
 .btn-rojo {
-  background-color: #e20000;
+  background-color: #FF5400;
   color: white;
   font-weight: 100;
   border-radius: 15px;
@@ -53,27 +57,49 @@ p {
   background-color: #370a6d;
   color: white;
 }
+.texto-idioma{
+  color:#282828;
+  text-decoration: none;
+}
+.texto-idioma:hover{
+  color: #e20000;
+
+}
 .btn-blanco {
   text-decoration: none;
   display: inline-block;
   border: none;
-  color: #370a6d;
-  background-color: white;
-  border: none;
+  color: white;
+  background-color: #FF5400;
+  font-weight: 500;
 }
 .btn-blanco:hover {
   color: white;
-  background-color: #370a6d;
+  background-color: #023E8A;
+  font-weight: 600;
+}
+.conocer {
+  text-decoration: none;
+  color: white;
+}
+
+.conocer:hover {
+  text-decoration: none;
+  color: white;
 }
 
 footer a {
-  color: white;
-  font-weight: 300;
+  color: #03045E;
+  font-weight: 500;
+}
+footer a:hover{
+  color: #FF6D00;
+  font-weight: 500;
 }
 
 footer {
-  color: white;
-  font-weight: 300;
+  color: #03045E;
+  font-weight: 500;
 }
 .proyecto{
   border: 1px solid #eee;
@@ -107,27 +133,23 @@ background: linear-gradient(90deg, rgba(214,0,0,1) 0%, rgba(255,0,0,1) 100%);
   font-weight: 400;
 }
 
-.fa-linkedin {
+.fa-linkedin, .fa-github {
   font-size: 30px;
   margin: 0 8px;
+  color: #03045E;
 }
-.fa-linkedin:hover {
-  color: white;
+.fa-linkedin:hover, .fa-github:hover {
+  color: #FF6D00;
 }
-.fa-github {
-  color: white;
-  font-size: 30px;
-
-  margin: 0 8px;
-}
-.linkedin:hover{
+ 
+/*.linkedin:hover{
   color: #e20000;
 
 }
 .linkedin{
   color: #e20000;
 
-}
+}*/
 .whatsapp {
   background-color: #370a6d;
   color: white;
@@ -145,6 +167,10 @@ background: linear-gradient(90deg, rgba(214,0,0,1) 0%, rgba(255,0,0,1) 100%);
   text-decoration: none;
   color: white;
 }
+.whatsapp a:hover {
+  text-decoration: none;
+  color: #FF9E00;
+}
 .frojo{
   color: #e20000;
 }
@@ -154,28 +180,23 @@ background: linear-gradient(90deg, rgba(214,0,0,1) 0%, rgba(255,0,0,1) 100%);
 .div-imagen{
   height: 410px;
 }
-.cohete{
-  width: 400px;
-  height: 400px;
+.play_icon{
+  width: 350px;
+  height: 350px;
   
 }
-.cohete:hover {
-  width: 420px;
-  height: 420px;
+.play_icon:hover {
+  width: 370px;
+  height: 370px;
 
 }
 .texto-inicio{
-  color: white;
+  color: #FDF0D5;
+  font-weight: 600;
   border-radius: 30px;
-  border: solid 1px white;
-}
-.conecer{
-  text-decoration: none;
-  color: #370a6d;
-}
-.conecer:hover {
-  text-decoration: none;
-  color: white;
+  border: solid 1px #FDF0D5;
+  background: rgb(255, 84, 0);
+  background: linear-gradient(90deg, rgba(255, 84, 0, 0.7) 0%, rgba(204, 106, 32, 0.7) 100%);
 }
 
 
