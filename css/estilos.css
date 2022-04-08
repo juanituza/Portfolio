@@ -3,29 +3,36 @@
 body {
   margin: 0px;
 }
-#contacto,
-#inicio,
-#sobre-mi {
-  background-image:url(../images/fondo-azul.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  font-family: "Montserrat", sans-serif;
-}
-#proyectos{
-  background-image: url(../images/fondo-proyectos.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  font-family: "Montserrat", sans-serif;
+#inicio,#sobre-mi,#contacto{
+  
+background-image:url(../images/fondo-azul2.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+font-family: "Montserrat",
+sans-serif;
 }
 
+
+#proyectos
+ {
+  background-image:url(../images/fondo-azul2.jpg);
+  background-repeat: round;
+  background-size: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+
+
 h1 {
-  color: #e20000;
+  color: white;
   font-size: 36px;
+  font-weight: 600;
+ 
 }
 nav .nav-link {
-  color: #282828;
+  color: white;
   
 }
+
 nav .nav-link:hover {
   color: #FF5400;
 
@@ -111,8 +118,8 @@ footer {
 .gradiente{
   color: white;
   font-size: 16px;
-  background: rgb(214,0,0);
-background: linear-gradient(90deg, rgba(214,0,0,1) 0%, rgba(255,0,0,1) 100%);
+  background: rgb(255, 72, 0);
+  background: linear-gradient(90deg, rgba(255, 72, 0, 1) 0%, rgba(255, 109, 0, 1) 52%, rgba(255, 145, 0, 1) 100%);
   text-transform: uppercase;
 }
 .card p{
@@ -121,6 +128,9 @@ background: linear-gradient(90deg, rgba(214,0,0,1) 0%, rgba(255,0,0,1) 100%);
 
 .parrafo {
   font-size: 14px;
+}
+.parrafo-proyec{
+  font-weight: 600;
 }
 
 
@@ -174,22 +184,17 @@ background: linear-gradient(90deg, rgba(214,0,0,1) 0%, rgba(255,0,0,1) 100%);
   text-decoration: none;
   color: #FF9E00;
 }
-.frojo{
-  color: #e20000;
-}
-.fnegro{
-  color: #282828;
-}
+
 .div-imagen{
-  height: 410px;
+  height: 370px;
 }
-.play_icon{
-  width: 356px;
+.computer{
+  width: 300px;
   
   
 }
-.play_icon:hover {
-  width: 370px;
+.computer:hover {
+  width: 320px;
  
 
 }
@@ -199,21 +204,42 @@ background: linear-gradient(90deg, rgba(214,0,0,1) 0%, rgba(255,0,0,1) 100%);
   border-radius: 30px;
   border: solid 1px #FF5400;
   /*background: rgb(255, 84, 0);
-  background: linear-gradient(90deg, rgba(255, 84, 0, 0.7) 0%, rgba(204, 106, 32, 0.7) 100%);*/
+  background: linear-gradient(90deg, rgba(255, 84, 0, 0.4) 0%, rgba(204, 106, 32, 0.4) 100%);*/
 }
 
 
 @media (max-width: 450px) {
-  #contacto {
-    background-image: url(../images/fondo-proyectos.png);
-   
+  #contacto,
+  #inicio,
+  #sobre-mi,
+  #proyectos {
+    background-image: url(../images/fondo-azul-proyectos.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: "Montserrat", sans-serif;
+  }
+  nav .nav-link {
+    color: #282828;
+    font-weight: 300;
+  
+  }
+  
+  
+  
+  nav .active {
+    border: 1px solid;
+    border-color: #FF5400;
+    border-radius: 20px;
+  }
+  h1{
+    color: #FF5400;
   }
   .btn-blanco {
     text-decoration: none;
     display: inline-block;
     border: none;
     color: white;
-    background-color: #e20000;
+    background-color: #FF5400;
     border: none;
   }
   .btn-blanco:hover {
@@ -230,24 +256,22 @@ background: linear-gradient(90deg, rgba(214,0,0,1) 0%, rgba(255,0,0,1) 100%);
     border: solid 1px;
   }
   footer a {
-    color: #282828;
-    font-weight: 100;
+    color: #0054b6;
+    font-weight: 500;
   }
 
   footer {
-    color: #282828;
-    font-weight: 200;
+    color: #0054b6;
+    font-weight: 500;
   }
-  .fa-github {
-    color: #282828;
+  .fa-github,.fa-linkedin {
+    color: #0054b6;
     font-size: 30px;
 
     margin: 0 8px;
   }
-  .frojo{
-  color: #e20000;
-}
-.fnegro{
-  color: #282828;
-}
+  .whatsapp {
+    background-color: #0054b6;
+  }
+
 }
