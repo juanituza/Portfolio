@@ -11,14 +11,7 @@ background-size: 100%;
 font-family: "Montserrat",
 sans-serif;
 }
-#sobre-mi{
-  background-image:url(../images/fondo-azul2.jpg);
-  background-repeat:round;
-  background-size: 100%;
-  font-family: "Montserrat",
-  sans-serif;
 
-}
 
 #proyectos
  {
@@ -27,16 +20,26 @@ sans-serif;
   background-size: 100%;
     font-family: "Montserrat", sans-serif;
 }
-
+#sobre-mi .card{
+  height:182px;
+}
 
 h1 {
   color: white;
   font-size: 36px;
   font-weight: 600;
   background: rgb(255, 72, 0);
-  background: linear-gradient(90deg, rgba(255, 72, 0, 0.5) 0%, rgba(255, 109, 0, 0.5) 52%, rgba(255, 145, 0, 0.5) 100%);
+  background: linear-gradient(90deg, rgba(255, 72, 0, 0.7) 0%, rgba(255, 109, 0, 0.7) 52%, rgba(255, 145, 0, 0.7) 100%);
   border-radius: 20px;
  
+}
+
+h2{
+  color:#FF5400;
+}
+
+h3{
+  font-size: 16px;
 }
 nav .nav-link {
   color: white;
@@ -221,7 +224,7 @@ footer {
   background: linear-gradient(90deg, rgba(255, 84, 0, 0.4) 0%, rgba(204, 106, 32, 0.4) 100%);*/
 }
 .img-fluid {
-  max-width: 70%;
+  max-width: 80%;
   height: auto;
 }
 .img-circle{
@@ -231,6 +234,23 @@ footer {
   padding: 10px;
   border-radius: 50%;
 }
+
+.color-gradiente{
+  background: rgb(255, 72, 1);
+  background: linear-gradient(90deg, rgba(255, 72, 0, 1) 0%, rgba(255, 109, 0, 1) 52%, rgba(255, 145, 0, 1) 100%);
+  
+}
+.baw {
+  
+  filter: grayscale(100%);
+}
+.baw:hover {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+
+}
+
 
 
 @media (max-width: 450px) {
