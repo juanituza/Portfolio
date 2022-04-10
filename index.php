@@ -34,20 +34,20 @@
                 <a
                   class="nav-link px-4 py-1 active"
                   aria-current="page"
-                  href="index.html"
+                  href="index.php"
                   >Inicio</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link px-4 py-1" href="sobre-mi.html">Sobre mí</a>
+                <a class="nav-link px-4 py-1" href="sobre-mi.php">Sobre mí</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-4 py-1" href="proyectos.html"
+                <a class="nav-link px-4 py-1" href="proyectos.php"
                   >Proyectos</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link px-4 py-1" href="contacto.html">Contacto</a>
+                <a class="nav-link px-4 py-1" href="contacto.php">Contacto</a>
               </li>
             </ul>
             <div class="d-inline">
