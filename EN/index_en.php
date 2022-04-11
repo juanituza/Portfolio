@@ -5,13 +5,13 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/fontawesome/css/all.min.css" />
-  <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css" />
-  <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" />
-  <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="css/estilos.css" />
+  <link rel="stylesheet" href="../css/fontawesome/css/all.min.css" />
+  <link rel="stylesheet" href="../css/fontawesome/css/fontawesome.min.css" />
+  <link rel="stylesheet" href="../css/bootstrap/css/bootstrap.min.css" />
+  <script src="../css/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="../css/estilos.css" />
 
-  <title>Inicio</title>
+  <title>Index</title>
 </head>
 
 <body id="inicio">
@@ -25,26 +25,26 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item">
-              <a class="nav-link px-4 py-1 active" aria-current="page" href="index.php">Inicio</a>
+              <a class="nav-link px-4 py-1 active" aria-current="page" href="index_en.php">Index</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-4 py-1" href="sobre-mi.php">Sobre mí</a>
+              <a class="nav-link px-4 py-1" href="about_me.php">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-4 py-1" href="proyectos.php">Proyectos</a>
+              <a class="nav-link px-4 py-1" href="proyect.php">Proyect</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-4 py-1" href="contacto.php">Contacto</a>
+              <a class="nav-link px-4 py-1" href="contact.php">Contact</a>
             </li>
           </ul>
           <div class="d-inline">
             <button class="btn btn-rojo" id="btnConoce" name="btnConoce">
-              <a href="index.php" class="texto-idioma">
+              <a href="../index.php" class="texto-idioma">
                 ES
               </a>
             </button>
             <button class="btn btn-rojo " id="btnConoce" name="btnConoce">
-              <a href="EN/index_en.php" class="texto-idioma ">
+              <a href="index_en.php" class="texto-idioma ">
                 EN
               </a>
           </div>
@@ -62,8 +62,8 @@
     <div class="container">
       <div class="row">
         <div class="col-12 text-center div-imagen">
-          <a href="sobre-mi.php">
-            <img src="images/computer.svg" alt="cohete" class="computer" />
+          <a href="about_me.php">
+            <img src="../images/computer.svg" alt="cohete" class="computer" />
           </a>
         </div>
       </div>
@@ -79,7 +79,7 @@
       <div class="row">
         <div class="col-12 text-center">
           <button class="btn btn-blanco px-4 mb-3" id="btnConoce" name="btnConoce">
-            <a href="proyectos.php" class="conocer">Conoce mis proyectos</a>
+            <a href="proyectos.html" class="conocer">Conoce mis proyectos</a>
           </button>
         </div>
       </div>

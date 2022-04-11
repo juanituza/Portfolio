@@ -5,13 +5,13 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/fontawesome/css/all.min.css" />
-  <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css" />
-  <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../css/fontawesome/css/all.min.css" />
+  <link rel="stylesheet" href="../css/fontawesome/css/fontawesome.min.css" />
+  <link rel="stylesheet" href="../css/bootstrap/css/bootstrap.min.css" />
   <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="css/estilos.css" />
+  <link rel="stylesheet" href="../css/estilos.css" />
 
-  <title>Proyectos</title>
+  <title>Proyect</title>
 </head>
 
 <body id="proyectos">
@@ -25,33 +25,33 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item">
-              <a class="nav-link px-4 py-1" aria-current="page" href="index.php">Inicio</a>
+              <a class="nav-link px-4 py-1" aria-current="page" href="index_en.php">Index</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-4 py-1" href="sobre-mi.php">Sobre mí</a>
+              <a class="nav-link px-4 py-1" href="about_me.php">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-4 py-1 active" href="proyectos.php">Proyectos</a>
+              <a class="nav-link px-4 py-1 active" href="proyect.php">Proyect</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-4 py-1" href="contacto.php">Contacto</a>
+              <a class="nav-link px-4 py-1" href="contact.php">Contact</a>
             </li>
           </ul>
           <div class="d-inline">
             <button class="btn btn-rojo" id="btnConoce" name="btnConoce">
-              <a href="index.php" class="texto-idioma">
+              <a href="../index.php" class="texto-idioma">
                 ES
               </a>
             </button>
             <button class="btn btn-rojo " id="btnConoce" name="btnConoce">
-              <a href="EN/index_en.php" class="texto-idioma ">
+              <a href="index_en.php" class="texto-idioma ">
                 EN
               </a>
           </div>
           <div class="d-inline ms-4">
             <a href="" class="btn btn-rojo">
               <i class="fa-solid fa-file-arrow-down"></i>
-              Descargar mi CV
+              Download my resume
             </a>
           </div>
         </div>
@@ -61,33 +61,33 @@
   <main class="container">
     <div class="row">
       <div class="col-12 col-sm-4 text-center mt-3 mb-4 mt-5">
-        <h1>Proyectos</h1>
+        <h1>Projects</h1>
       </div>
     </div>
     <div class="row">
       <div class="col-sm-6 col-12 mt-3">
-        <p>Los siguientes son algunos de los trabajos que he realizado:</p>
+        <p>The following are some of the work I have done:</p>
       </div>
     </div>
     <div class="row">
       <div class="col-sm-4 col-12 p-sm-4 px-4 py-2">
         <div class=" row card">
           <div class="col-12 p-0">
-            <img src="images/abmclientes.png" alt="abm clientes" class="img-fluid">
+            <img src="../images/abmclientes.png" alt="abm clientes" class="img-fluid">
           </div>
           <div class="col-12 p-0">
-            <h2 class="p-3  d-block gradiente">ABM CLIENTES</h2>
+            <h2 class="p-3  d-block gradiente">ABM CUSTOMERS</h2>
           </div>
           <div class="col-12 p-2">
-            <p class=" d-block parrafo ">Alta, baja y modificación de un registro de clientes. Realizado en HTML, CSS, PHP, Bootstrap y Json.</p>
+            <p class=" d-block parrafo ">Registration, cancellation and modification of a customer record. Made in HTML, CSS, PHP, Bootstrap and Json.</p>
           </div>
           <div class="class row py-5">
 
             <div class="col-6 ps-4">
-              <a href="" target="_blank" class="btn btn-rojo ">Ver online</a>
+              <a href="" target="_blank" class="btn btn-rojo ">Watch online</a>
             </div>
             <div class="col-6">
-              <a href="" target="_blank" class="codigo text-center">Código fuente</a>
+              <a href="" target="_blank" class="codigo text-center">Source code</a>
             </div>
           </div>
         </div>
@@ -96,21 +96,21 @@
       <div class="col-sm-4 col-12 p-sm-4 px-4 py-2">
         <div class=" row card">
           <div class="col-12 p-0">
-            <img src="images/abmventas.png" alt="abm clientes" class="img-fluid">
+            <img src="../images/abmventas.png" alt="abm clientes" class="img-fluid">
           </div>
           <div class="col-12 p-0">
-            <h2 class="p-3  d-block gradiente">SISTEMA DE GESTIÓN DE VENTAS</h2>
+            <h2 class="p-3  d-block gradiente">SALES MANAGEMENT SYSTEM</h2>
           </div>
           <div class="col-12 p-2">
-            <p class=" d-block parrafo ">Sistema de gestión de clientes, productos y ventas. Realizado en HTML, CSS, PHP, MVC, Bootstrap, Js, Ajax, jQuery y MySQL de base de datos.</p>
+            <p class=" d-block parrafo ">Customer, product and sales management system. Made in HTML, CSS, PHP, MVC, Bootstrap, Js, Ajax, jQuery and MySQL database.</p>
           </div>
           <div class="class row py-5">
 
             <div class="col-6 ps-4">
-              <a href="" target="_blank" class="btn btn-rojo ">Ver online</a>
+              <a href="" target="_blank" class="btn btn-rojo ">Watch online</a>
             </div>
             <div class="col-6">
-              <a href="" target="_blank" class="codigo text-center">Código fuente</a>
+              <a href="" target="_blank" class="codigo text-center">Source code</a>
             </div>
           </div>
         </div>
@@ -119,21 +119,21 @@
       <div class="col-sm-4 col-12 p-sm-4 px-4 py-2">
         <div class="row card">
           <div class="col-12 p-0">
-            <img src="images/proyecto-integrador.png" alt="abm clientes" class="img-fluid">
+            <img src="../images/proyecto-integrador.png" alt="abm clientes" class="img-fluid">
           </div>
           <div class="col-12 p-0">
-            <h2 class="p-3  d-block gradiente">PROYECTO INTEGRADOR</h2>
+            <h2 class="p-3  d-block gradiente">INTEGRATING PROJECT</h2>
           </div>
           <div class="col-12 p-2">
-            <p class=" d-block parrafo ">Proyecto Full Stack desarrollado en PHP, Laravel, Javascript, jQuery, AJAX, HTML, CSS, Mercadopago con panel administrador, gestor de usuarios, módulo de permisos y funcionalidades a fines.</p>
+            <p class=" d-block parrafo ">Full Stack Project developed in PHP, Laravel, Javascript, jQuery, AJAX, HTML, CSS, Mercadopago with administrator panel, user manager, permissions module and functionalities for purposes.</p>
           </div>
           <div class="class row py-5">
 
             <div class="col-6 ps-4">
-              <a href="" target="_blank" class="btn btn-rojo ">Ver online</a>
+              <a href="" target="_blank" class="btn btn-rojo ">Watch online</a>
             </div>
             <div class="col-6">
-              <a href="" target="_blank" class="codigo text-center">Código fuente</a>
+              <a href="" target="_blank" class="codigo text-center">Source code</a>
             </div>
           </div>
         </div>

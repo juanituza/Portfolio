@@ -2,19 +2,16 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
-  <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/fontawesome/css/all.min.css" />
+  <link rel="stylesheet" href="../css/fontawesome/css/fontawesome.min.css" />
+  <link rel="stylesheet" href="../css/bootstrap/css/bootstrap.min.css" />
   <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="css/estilos.css">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-  </style>
-  <title>Contacto</title>
+  <link rel="stylesheet" href="../css/estilos.css" />
+
+  <title>Contact</title>
 </head>
 
 <body id="contacto">
@@ -33,26 +30,26 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item ">
-              <a class="nav-link px-4 py-1 " aria-current="page" href="index.php">Inicio</a>
+              <a class="nav-link px-4 py-1 " aria-current="page" href="index_en.php">Index</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link px-4 py-1 " href="sobre-mi.php">Sobre mí</a>
+              <a class="nav-link px-4 py-1 " href="about_me.php">About me</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link px-4 py-1" href="proyectos.php">Proyectos</a>
+              <a class="nav-link px-4 py-1" href="proyect.php">Proyect</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link px-4 py-1 active" href="contacto.php">Contacto</a>
+              <a class="nav-link px-4 py-1 active" href="contact.php">Contact</a>
             </li>
           </ul>
           <div class="d-inline">
             <button class="btn btn-rojo" id="btnConoce" name="btnConoce">
-              <a href="index.php" class="texto-idioma">
+              <a href="../index.php" class="texto-idioma">
                 ES
               </a>
             </button>
             <button class="btn btn-rojo " id="btnConoce" name="btnConoce">
-              <a href="EN/index_en.php" class="texto-idioma ">
+              <a href="index_en.php" class="texto-idioma ">
                 EN
               </a>
           </div>
@@ -61,7 +58,7 @@
 
             <a href="" class="btn btn-rojo">
               <i class="fa-solid fa-file-arrow-down"></i>
-              Descargar mi CV
+              Download my resume
 
             </a>
 
@@ -74,32 +71,32 @@
   <main class="container">
     <div class="row">
       <div class="col-12 col-sm-4 text-center mt-3 mb-4 mt-5">
-        <h1>Contacto</h1>
+        <h1>Contact me</h1>
       </div>
     </div>
     <div class="row">
       <div class="col-sm-6 col-12">
         <p>
-          Te invito a que te contactes enviándome un mensaje o bien por
-          whatsapp
+          I invite you to contact me by sending me a message or by
+          WhatsApp
         </p>
       </div>
       <div class="col-sm-6 col-12">
         <form action="" method="post">
           <div class="mb-3">
-            <input class="form-control shadow " type="text" id="txtNombre" name="txtNombre" placeholder="Nombre" required>
+            <input class="form-control shadow " type="text" id="txtNombre" name="txtNombre" placeholder="Name" required>
           </div>
           <div class="mb-3">
             <input class="form-control shadow  " type="text" id="txtCorreo" name="txtCorreo" placeholder="Email" required>
           </div>
           <div class="mb-3">
-            <input class="form-control shadow " type="text" id="txtTelefono" name="txtTelefono" placeholder="Teléfono/Whatsapp" required>
+            <input class="form-control shadow " type="text" id="txtTelefono" name="txtTelefono" placeholder="Phone/Whatsapp" required>
           </div>
           <div class="mb-3">
-            <textarea class="form-control shadow " type="txtMensaje" id="txtMensaje" name="txtMensaje" placeholder="Escribe un mensaje" required></textarea>
+            <textarea class="form-control shadow " type="txtMensaje" id="txtMensaje" name="txtMensaje" placeholder="Write a message" required></textarea>
           </div class="me-auto text-right">
           <button class="btn btn-blanco px-4 mb-3" id="btnEnviar" name="btnEnviar">
-            ENVIAR
+            Send
           </button>
         </form>
       </div>
@@ -115,8 +112,8 @@
       </div>
       <div class="col-12 col-sm-3  pt-2 p-sm-0">
         Sponsor: <a href="https://depcsuite.com" target="_blank">DePC</a></div>
-      <div class="col-12 col-sm-3   pt-2 p-sm-0 mail-contacto">
-        <a href="mailto:juanimckenna@gmail.comm" target="_blank">juanimckenna@gmail.com</a>
+      <div class="col-12 col-sm-3   pt-2 p-sm-0">
+        <a href="mailto:juanimckenna@gmail.com" target="_blank">juanimckenna@gmail.com</a>
       </div>
     </div>
   </footer>
@@ -127,7 +124,7 @@
     </a>
 
   </div>
-  <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
 </body>
 
 </html>

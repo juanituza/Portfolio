@@ -43,6 +43,7 @@ h3{
 }
 nav .nav-link {
   color: white;
+  font-weight: 400;
   
 }
 
@@ -113,16 +114,18 @@ p {
 
 footer a {
   color: #03045E;
-  font-weight: 500;
+  font-weight: 800;
+  text-decoration: none;
 }
 footer a:hover{
   color: #FF6D00;
-  font-weight: 500;
+  font-weight: 800;
+  text-decoration: none;
 }
 
 footer {
   color: #03045E;
-  font-weight: 500;
+  font-weight: 800;
 }
 .proyecto{
   border: 1px solid #eee;
@@ -172,14 +175,7 @@ footer {
   color: #FF6D00;
 }
  
-/*.linkedin:hover{
-  color: #e20000;
 
-}
-.linkedin{
-  color: #e20000;
-
-}*/
 .whatsapp {
   background-color: #370a6d;
   color: white;
@@ -224,15 +220,15 @@ footer {
   background: linear-gradient(90deg, rgba(255, 84, 0, 0.4) 0%, rgba(204, 106, 32, 0.4) 100%);*/
 }
 .img-fluid {
-  max-width: 80%;
+  max-width: 110%;
   height: auto;
 }
 .img-circle{
   margin: 1em auto;
   display: block;
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 50%;
+  background-color: white;
+  padding: 5px;
+  border-radius: 100%;
 }
 
 .color-gradiente{
@@ -250,6 +246,10 @@ footer {
   filter: grayscale(0%);
 
 }
+h2 .fas {
+  color: #0054b6;
+}
+
 
 
 
@@ -267,9 +267,16 @@ footer {
     color: #282828;
     font-weight: 300;
   
+
+  }
+  body {
+    margin: 0px;
   }
   
-  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
   
   nav .active {
     border: 1px solid;
@@ -277,7 +284,7 @@ footer {
     border-radius: 20px;
   }
   h1{
-    color: #FF5400;
+    color: white;
   }
   .btn-blanco {
     text-decoration: none;
@@ -296,18 +303,18 @@ footer {
     width: 100%;
   }
   .navbar-toggler fa-bars {
-    color: #282828;
+    color: #0054b6;
     border-radius: 20px;
     border: solid 1px;
   }
   footer a {
     color: #0054b6;
-    font-weight: 500;
+    font-weight: 700;
   }
 
   footer {
     color: #0054b6;
-    font-weight: 500;
+    font-weight: 700;
   }
   .fa-github,.fa-linkedin {
     color: #0054b6;
@@ -316,7 +323,21 @@ footer {
     margin: 0 8px;
   }
   .whatsapp {
-    background-color: #0054b6;
+    background-color: #370a6d;
+    color: white;
+    width: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    padding: 8px 0 15px 0;
+    right: 20px;
+    position: fixed;
+    bottom: 0px;
+  }
+
+  .img-circle {
+     background-color: #FF6D00;
   }
 
 }
