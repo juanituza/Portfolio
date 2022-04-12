@@ -63,7 +63,7 @@
       <div class="row">
         <div class="col-12 text-center div-imagen">
           <a href="sobre-mi.php">
-            <img src="images/computer.svg" alt="cohete" class="computer" />
+            <img src="images/web-development.png" alt="cohete" class="computer" />
           </a>
         </div>
       </div>
