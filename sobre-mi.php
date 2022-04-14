@@ -61,8 +61,8 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-sm-5 mt-5">
-          <div class="col-6 col-sm-6 m-4">
-            <h1 class="text-center">¡Hola! </br> ¡Soy Juan!</h1>
+          <div class="col-6 col-sm-6 m-4 background" >
+            <h1 class="text-center text">¡Hola! </br> ¡Soy Juan!</h1>
           </div>
           <div>
             <p class="info">
