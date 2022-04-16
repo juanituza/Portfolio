@@ -83,7 +83,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 my-5">
-            <h2 class="text-white">Technological knowledge</h2>
+            <h2 class="text-white"><i class="fa-solid fa-user-graduate"></i> Technological knowledge</h2>
           </div>
         </div>
         <div class="row">
