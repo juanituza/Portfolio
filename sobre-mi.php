@@ -61,7 +61,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-sm-5 mt-5">
-          <div class="col-6 col-sm-6 m-4 background" >
+          <div class="col-6 col-sm-6 m-4 background">
             <h1 class="text-center text">¡Hola! </br> ¡Soy Juan!</h1>
           </div>
           <div>
@@ -71,9 +71,10 @@
           </div>
 
           <div class="col-12 col-sm-6 mt-4">
-            <a href="contacto.html" class="btn btn-rojo" target="_blank">Enviar mensaje</a>
+            <a href="contacto.php" class="btn btn-rojo" target="_blank">Enviar mensaje</a>
           </div>
         </div>
+
         <div class="col-12 col-sm-4 mt-4 offset-sm-2">
           <img src="images/perfil3.jpg" alt="perfil" class="img-fluid img-circle" />
         </div>
@@ -83,7 +84,11 @@
       <div class="container">
         <div class="row">
           <div class="col-12 my-5">
-            <h2 class="text-white">Conocimientos tecnológicos</h2>
+            <h2 class="text-white ">
+              <i class="fa-solid fa-user-graduate"></i>
+              Conocimientos tecnológicos
+            </h2>
+
           </div>
         </div>
         <div class="row">

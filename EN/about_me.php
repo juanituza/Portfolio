@@ -71,7 +71,7 @@
           </div>
 
           <div class="col-12 col-sm-6 mt-4">
-            <a href="contacto.html" class="btn btn-rojo" target="_blank">Send Message</a>
+            <a href="contact.php" class="btn btn-rojo" target="_blank">Send Message</a>
           </div>
         </div>
         <div class="col-12 col-sm-4 mt-4 offset-sm-2">

@@ -6,6 +6,7 @@ body {
 #inicio,#sobre-mi,#contacto{
   
 background-image:url(../images/fondo-azul2.jpg);
+
 background-repeat: no-repeat;
 background-size: 100%;
 font-family: "Montserrat",
@@ -56,10 +57,12 @@ nav .active {
   border-color: #FF5400;
   border-radius: 20px;
 }
+
 input,
 textarea,
 .btn {
   border-radius: 15px !important;
+  caret-color: #FF5400;
 }
 textarea {
   height: 150px;
@@ -227,8 +230,9 @@ footer {
   display: block;
   background-color: white;
   padding: 5px;
-  border-radius: 100%;
+  border-radius: 50%;
 }
+
 
 .color-gradiente{
   background: rgb(255, 72, 1);
@@ -245,24 +249,12 @@ footer {
   filter: grayscale(0%);
 
 }
-h2 .fas {
+h2 .fas,  {
   color: #0054b6;
 }
-/*.text{
-  background-image: url(../images/337.jpg);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  font-weight: 900;
-  /*border: #eee 3px solid;
-  
-}
-.background{
-background: rgb(255, 72, 0);
-background: linear-gradient(90deg, rgba(255, 72, 0, 0.7) 0%, rgba(255, 109, 0, 0.7) 52%, rgba(255, 145, 0, 0.7) 100%);
-  border-radius: 20px;
 
-}*/
+
+
 
 
 
