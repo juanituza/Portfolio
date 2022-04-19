@@ -63,7 +63,7 @@
       <div class="row">
         <div class="col-12 text-center div-imagen">
           <a href="about_me.php">
-            <img src="../images/computer.svg" alt="cohete" class="computer" />
+            <img src="../images/web-development.png" alt="cohete" class="computer" />
           </a>
         </div>
       </div>
@@ -79,7 +79,7 @@
       <div class="row">
         <div class="col-12 text-center">
           <button class="btn btn-blanco px-4 mb-3" id="btnConoce" name="btnConoce">
-            <a href="proyectos.html" class="conocer">Conoce mis proyectos</a>
+            <a href="proyect.php" class="conocer">Conoce mis proyectos</a>
           </button>
         </div>
       </div>

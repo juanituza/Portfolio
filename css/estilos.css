@@ -218,8 +218,7 @@ footer {
   font-weight: 600;
   border-radius: 30px;
   border: solid 1px #FF5400;
-  /*background: rgb(255, 84, 0);
-  background: linear-gradient(90deg, rgba(255, 84, 0, 0.4) 0%, rgba(204, 106, 32, 0.4) 100%);*/
+  
 }
 .img-fluid {
   max-width: 110%;
