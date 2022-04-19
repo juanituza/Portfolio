@@ -191,6 +191,7 @@ footer {
   right: 80px;
   position: fixed;
   bottom: 0px;
+  
 }
 .whatsapp a {
   text-decoration: none;
@@ -199,6 +200,8 @@ footer {
 .whatsapp a:hover {
   text-decoration: none;
   color: #FF9E00;
+ 
+  
 }
 
 .div-imagen{
@@ -251,7 +254,13 @@ footer {
 h2 .fas {
   color: #0054b6;
 }
-
+.qr{
+  width: 120px;
+  
+}
+.qr:hover{
+  transform: scale(110%);
+}
 
 
 

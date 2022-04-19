@@ -80,6 +80,10 @@
           I invite you to contact me by sending me a message or by
           WhatsApp
         </p>
+        <p class="mt-5">¡Escanea el código y contactame!</p>
+        <a href="https://wa.me/5491150571913?text=hola!%20Quisiera%20contactar" target="_blank" title="codigo qr">
+          <img src="../images/qr.jpg" alt="codigo qr" class="qr ms-5 my-sm-2 mb-5">
+        </a>
       </div>
       <div class="col-sm-6 col-12">
         <form action="" method="post">
@@ -124,7 +128,7 @@
     </a>
 
   </div>
-  
+
 </body>
 
 </html>
