@@ -44,7 +44,7 @@ $pg = "about_me";
         </div>
       </div>
     </div>
-    <section id="tecnologias" class="color-gradiente pb-5">
+    <section class="color-gradiente pb-5">
       <div class="container">
         <div class="row">
           <div class="col-12 my-5">
