@@ -1,3 +1,11 @@
+<?php
+
+$pg= "proyectos";
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -15,49 +23,7 @@
 </head>
 
 <body id="proyectos">
-  <header>
-    <nav class="navbar navbar-expand-md mb-4">
-      <div class="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fa-solid fa-bars"></i>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link px-4 py-1" aria-current="page" href="index.php">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link px-4 py-1" href="sobre-mi.php">Sobre mí</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link px-4 py-1 active" href="proyectos.php">Proyectos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link px-4 py-1" href="contacto.php">Contacto</a>
-            </li>
-          </ul>
-          <div class="d-inline">
-            <button class="btn btn-rojo" id="btnConoce" name="btnConoce">
-              <a href="index.php" class="texto-idioma">
-                ES
-              </a>
-            </button>
-            <button class="btn btn-rojo " id="btnConoce" name="btnConoce">
-              <a href="EN/index_en.php" class="texto-idioma ">
-                EN
-              </a>
-          </div>
-          <div class="d-inline ms-4">
-            <a href="" class="btn btn-rojo">
-              <i class="fa-solid fa-file-arrow-down"></i>
-              Descargar mi CV
-            </a>
-          </div>
-        </div>
-      </div>
-    </nav>
-  </header>
+  <?php include_once("header.php"); ?>
   <main class="container">
     <div class="row">
       <div class="col-12 col-sm-4 text-center mt-3 mb-4 mt-5">
@@ -96,7 +62,7 @@
       <div class="col-sm-4 col-12 p-sm-4 px-4 py-2">
         <div class=" row card">
           <div class="col-12 p-0">
-            <img src="images/abmventas.png" alt="abm clientes" class="img-fluid">
+            <img src="images/abmventas.png" alt="abm clientes" class="img-fluid proy">
           </div>
           <div class="col-12 p-0">
             <h2 class="p-3  d-block gradiente">SISTEMA DE GESTIÓN DE VENTAS</h2>
@@ -143,26 +109,7 @@
 
     </div>
   </main>
-  <footer class="container fnegro">
-    <div class="row mt-4 pb-1">
-      <div class="col-12 col-sm-3 text-sm-start">
-        <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github frojo"></i></a>
-        <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin linkedin"></i></a>
-      </div>
-      <div class="col-12 col-sm-3 pt-2 p-sm-0 ">
-        Sponsor: <a href="https://depcsuite.com" target="_blank" class="fnegro">DePC</a>
-      </div>
-      <div class="col-12 col-sm-3 pt-2 p-sm-0">
-        <a href="mailto:juanimckenna@gmail.com" target="_blank" class="fnegro">juanimckenna@gmail.com</a>
-      </div>
-    </div>
-  </footer>
-
-  <div class="whatsapp col-12 col-sm-3">
-    <a href="https://wa.me/5491150571913?text=hola!%20Quisiera%20contactar" target="_blank" title="whatapps">
-      <i class="fa-brands fa-whatsapp"></i>
-    </a>
-  </div>
+  <?php include_once("footer.php"); ?>
 
 </body>
 

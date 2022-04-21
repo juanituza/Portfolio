@@ -93,6 +93,11 @@ p {
   color: white;
 
 }
+
+.img-fluid {
+  
+
+}
 .btn-blanco {
   text-decoration: none;
   display: inline-block;
@@ -224,7 +229,7 @@ footer {
   
 }
 .img-fluid {
-  max-width: 110%;
+  max-width: 100%;
   height: auto;
 }
 .img-circle{
