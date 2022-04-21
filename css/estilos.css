@@ -2,6 +2,8 @@
 
 body {
   margin: 0px;
+    font-family: "Montserrat",
+    sans-serif;
 }
 #inicio,#sobre-mi,#contacto{
   
@@ -9,8 +11,7 @@ background-image:url(../images/fondo-azul2.jpg);
 
 background-repeat: no-repeat;
 background-size: 100%;
-font-family: "Montserrat",
-sans-serif;
+
 }
 
 
@@ -19,7 +20,7 @@ sans-serif;
   background-image:url(../images/fondo-azul2.jpg);
   background-repeat: round;
   background-size: 100%;
-    font-family: "Montserrat", sans-serif;
+  
 }
 #sobre-mi .card{
   height:182px;
@@ -161,8 +162,7 @@ footer {
 #proyectos img {
     height: 200px;
 }
-.img-fluid {
-    max-width: 100%;}
+
 .codigo{
   text-decoration: none;
   color: #e20000;
@@ -230,8 +230,11 @@ footer {
 .img-circle{
   margin: 1em auto;
   display: block;
-  background-color: white;
-  padding: 5px;
+  background: rgb(0, 84, 182);
+  background: rgb(0, 84, 182);
+  background: rgb(0, 84, 182);
+  background: linear-gradient(90deg, rgba(0, 84, 182, 1) 0%, rgba(187, 191, 215, 1) 32%, rgba(187, 191, 215, 1) 63%, rgba(255, 84, 0, 1) 100%);
+  padding: 4px;
   border-radius: 50%;
 }
 
@@ -349,8 +352,6 @@ h2 .fas {
     bottom: 0px;
   }
 
-  .img-circle {
-     background-color: #FF6D00;
-  }
+ 
 
 }

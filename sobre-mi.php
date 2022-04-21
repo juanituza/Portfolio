@@ -75,7 +75,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-sm-4 mt-4 offset-sm-2">
+        <div class="col-12 col-sm-4 mt-4 offset-sm-2 borde">
           <img src="images/perfil3.jpg" alt="perfil" class="img-fluid img-circle" />
         </div>
       </div>
