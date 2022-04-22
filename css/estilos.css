@@ -4,6 +4,7 @@ body {
   margin: 0px;
     font-family: "Montserrat",
     sans-serif;
+  
 }
 #inicio,#sobre-mi,#contacto{
   
@@ -78,7 +79,7 @@ p {
   0,0.7);
   color: white;
   font-weight: 300;
-  border-radius: 15px;
+  
 }
 .btn-rojo:hover {
   background-color: #023E8A;
@@ -211,12 +212,14 @@ footer {
 }
 .computer{
   width: 300px;
+  transition: transform 0.75s;
+  
   
   
 }
-.computer:hover {
+.computer:hover  {
   transform: scale(110%);
-
+  transition: transform 0.75s;
 }
 .texto-inicio{
   color: #FF5400;
@@ -238,7 +241,10 @@ footer {
   background: linear-gradient(90deg, rgba(0, 84, 182, 1) 0%, rgba(187, 191, 215, 1) 32%, rgba(187, 191, 215, 1) 63%, rgba(255, 84, 0, 1) 100%);
   padding: 4px;
   border-radius: 50%;
+  object-fit: cover;
+  
 }
+
 
 
 .color-gradiente{

@@ -30,6 +30,7 @@
                         <a href="EN/index_en.php" class="texto-idioma ">
                             EN
                         </a>
+                    </button>
                 </div>
                 <div class="d-inline ms-4">
                     <a href="" class="btn btn-rojo">
