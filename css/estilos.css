@@ -229,7 +229,7 @@ footer {
   
 }
 .img-fluid {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 .img-circle{
@@ -267,13 +267,43 @@ h2 .fas {
 }
 .qr{
   width: 120px;
+  transition: transform 0.50s;
   
 }
 .qr:hover{
   transform: scale(110%);
+  transition: transform 0.75s;
+}
+#adicional .card{
+  padding: 40px 0px;
+  background-color: #03045E;
+  border-radius: 20px;
+}
+.fa-futbol, .fa-language {
+  font-size: 80px;
+  color:white;
+ 
 }
 
+.caja{
+ border-radius: 20px;
+}
+#adicional h3{
+  font-size: 20px;
+  text-decoration: underline;
+  color: #FF5400;
+  margin: 35px 0px 35px 5px;
+}
+ul {
+  list-style-position: inside;
 
+}
+#adicional {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(226, 226, 226, 1) 50%, rgba(255, 252, 252, 1) 100%);
+  margin:50px 0 ;
+
+}
 
 
 

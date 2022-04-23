@@ -1,6 +1,6 @@
 <?php
 
-$pg ="sobre-mi";
+$pg = "sobre-mi";
 
 ?>
 
@@ -35,7 +35,7 @@ $pg ="sobre-mi";
             </p>
           </div>
 
-          <div class="col-12 col-sm-6 mt-4">
+          <div class="col-12 col-sm-6 my-4">
             <a href="contacto.php" class="btn btn-rojo" target="_blank">Enviar mensaje</a>
           </div>
         </div>
@@ -45,7 +45,7 @@ $pg ="sobre-mi";
         </div>
       </div>
     </div>
-    <section  class="color-gradiente pb-5">
+    <section class="color-gradiente pb-5">
       <div class="container">
         <div class="row">
           <div class="col-12 my-5">
@@ -235,18 +235,56 @@ $pg ="sobre-mi";
           </div>
 
         </div>
-
-
       </div>
 
     </section>
+
+    <section id="adicional">
+      <div class="container p-5">
+        <div class="row">
+          <div class="col-12 col-sm-6 px-4 mb-3 ">
+            <div class="row shadow bg-white caja  ">
+              <div class="col-sm-4 col-12 text-center   card ">
+                <i class="fa-solid fa-language"></i>
+              </div>
+              <div class="col-sm-8 col-12 ">
+                <h3>IDIOMAS</h3>
+                <ul>
+                  <li>Español: Nativo</li>
+                  <li>Ingles: Básico</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-sm-6 px-4">
+            <div class="row shadow bg-white caja  ">
+              <div class="col-sm-4 text-center   card ">
+                <i class="fa-solid fa-futbol "></i>
+              </div>
+              <div class="col-sm-8">
+                <h3>HOBBIES</h3>
+                <ul>
+                  <li>Fútbol/li>
+                  <li>Cine: Series/películas</li>
+                  <li>Tenis</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
 
 
 
   </main>
   <?php include_once("footer.php"); ?>
 
-  
+
 </body>
 
 </html>

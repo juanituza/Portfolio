@@ -35,7 +35,7 @@ $pg = "about_me";
             </p>
           </div>
 
-          <div class="col-12 col-sm-6 mt-4">
+          <div class="col-12 col-sm-6 my-4">
             <a href="contact.php" class="btn btn-rojo" target="_blank">Send Message</a>
           </div>
         </div>
@@ -236,7 +236,44 @@ $pg = "about_me";
       </div>
 
     </section>
+    <section id="adicional">
+      <div class="container p-5">
+        <div class="row">
+          <div class="col-12 col-sm-6 px-4 mb-3 ">
+            <div class="row shadow bg-white caja  ">
+              <div class="col-sm-4 col-12 text-center   card ">
+                <i class="fa-solid fa-language"></i>
+              </div>
+              <div class="col-sm-8 col-12 ">
+                <h3>LANGUAGES</h3>
+                <ul>
+                  <li>Spanish: Native </li>
+                  <li>English: Basic </li>
+                </ul>
+              </div>
+            </div>
 
+          </div>
+          <div class="col-12 col-sm-6 px-4">
+            <div class="row shadow bg-white caja  ">
+              <div class="col-sm-4 text-center   card ">
+                <i class="fa-solid fa-futbol "></i>
+              </div>
+              <div class="col-sm-8">
+                <h3>HOBBIES</h3>
+                <ul>
+                  <li>SOCCER</li>
+                  <li>Cinema: T.V. series / Movies</li>
+                  <li>TENNIS</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
 
 
   </main>
