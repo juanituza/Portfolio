@@ -8,7 +8,7 @@
         <div class="col-12 col-sm-3  pt-2 p-sm-0">
             Sponsor: <a href="https://depcsuite.com" target="_blank">DePC</a></div>
         <div class="col-12 col-sm-3   pt-2 p-sm-0 mail-contacto">
-            <a href="mailto:juanimckenna@gmail.comm" target="_blank">juanimckenna@gmail.com</a>
+            <a href="mailto:juanimckenna@gmail.com" target="_blank">juanimckenna@gmail.com</a>
         </div>
     </div>
 </footer>
