@@ -41,7 +41,7 @@ $pg ="sobre-mi";
         </div>
 
         <div class="col-12 col-sm-4 mt-4 offset-sm-2 borde">
-          <img src="images/perfil3.jpg" alt="perfil" class="img-fluid img-circle" />
+          <img src="images/perfil3.jpg" alt="Juan Mc kenna" class="img-fluid img-circle" />
         </div>
       </div>
     </div>
@@ -152,7 +152,7 @@ $pg ="sobre-mi";
         </div>
       </div>
     </section>
-    <section id="laboral" class="container">
+    <section class="container">
       <div class="row">
         <div class="col-12 my-4">
           <h2><i class="fas fa-briefcase"></i> Experiencia laboral</h2>

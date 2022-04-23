@@ -235,15 +235,15 @@ footer {
 .img-circle{
   margin: 1em auto;
   display: block;
-  background: rgb(0, 84, 182);
-  background: rgb(0, 84, 182);
-  background: rgb(0, 84, 182);
   background: linear-gradient(90deg, rgba(0, 84, 182, 1) 0%, rgba(187, 191, 215, 1) 32%, rgba(187, 191, 215, 1) 63%, rgba(255, 84, 0, 1) 100%);
+
+  
   padding: 4px;
   border-radius: 50%;
   object-fit: cover;
   
 }
+
 
 
 
