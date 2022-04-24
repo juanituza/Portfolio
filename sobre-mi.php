@@ -265,7 +265,7 @@ $pg = "sobre-mi";
               <div class="col-sm-8">
                 <h3>HOBBIES</h3>
                 <ul>
-                  <li>Fútbol/li>
+                  <li>Fútbo</li>
                   <li>Cine: Series/películas</li>
                   <li>Tenis</li>
                 </ul>
