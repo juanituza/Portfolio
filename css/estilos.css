@@ -213,7 +213,7 @@ footer {
   border-left: 4px solid;
   border-right: 4px solid;
   transform: skewX(20deg);
-  color: #FF6D00;
+  color: #03045E;
   
 }
 
@@ -222,7 +222,7 @@ footer {
   border-top: 4px solid;
   border-bottom: 4px solid;
   transform: skewY(-20deg);
-  color: #FF5400;
+  color: #03045E;
 }
 
 
