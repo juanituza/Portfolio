@@ -16,6 +16,7 @@ $pg = "sobre-mi";
   <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css" />
   <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" />
   <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
   <link rel="stylesheet" href="css/estilos.css" />
   <title>Sobre mí</title>
 </head>

@@ -172,16 +172,60 @@ footer {
   font-weight: 400;
 }
 
-.fa-linkedin, .fa-github {
+/*.fa-linkedin, .fa-github {
   font-size: 30px;
   margin: 0 8px;
   color: #03045E;
   
+}*/
+
+.wrapper {
+  display: flex;  
 }
-.fa-linkedin:hover, .fa-github:hover {
-  color: #FF6D00;
+
+.icon {
+  position: relative;
+  border-radius: 50%;
+  padding: 15px;
+  
+  height: 50px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer
 }
+
+.wrapper .icon::before,
+.wrapper .icon::after {
+  content: '';
+  position: absolute;
  
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  transition: .4s linear;
+  
+}
+.wrapper .icon:hover::before {
+  border-radius: 50%;
+  border-left: 4px solid;
+  border-right: 4px solid;
+  transform: skewX(20deg);
+  color: #FF6D00;
+  
+}
+
+.wrapper .icon:hover::after {
+  border-radius: 50%;
+  border-top: 4px solid;
+  border-bottom: 4px solid;
+  transform: skewY(-20deg);
+  color: #FF5400;
+}
+
 
 .whatsapp {
   background-color: #370a6d;

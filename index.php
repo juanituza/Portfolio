@@ -1,6 +1,6 @@
 <?php
 
-$pg ="index";
+$pg = "index";
 
 ?>
 
@@ -16,6 +16,7 @@ $pg ="index";
   <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css" />
   <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" />
   <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/dd8c49730d.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/estilos.css" />
 
   <title>Inicio</title>
