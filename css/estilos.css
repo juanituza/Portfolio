@@ -165,19 +165,16 @@ footer {
 #proyectos img {
     height: 200px;
 }
+#proyectos .img-fluid{
+  max-width: 100%;
+}
+
 
 .codigo{
   text-decoration: none;
   color: #e20000;
   font-weight: 400;
 }
-
-/*.fa-linkedin, .fa-github {
-  font-size: 30px;
-  margin: 0 8px;
-  color: #03045E;
-  
-}*/
 
 .wrapper {
   display: flex;  
