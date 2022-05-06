@@ -31,8 +31,11 @@ $pg = "contacto";
     <?php include_once("header.php"); ?>
     <main class="container">
         <div class="row offset-sm-3">
-            <div class="col-12 col-sm-6 text-center  m-5 ">
+            <div class="col-12 col-sm-6 text-center  my-5 ">
                 <h1>Gracias por contactarte</h1>
+                <p class="my-3">
+                    Te responderé a la brevedad.
+                </p>
             </div>
         </div>
         <div class="row">
@@ -41,10 +44,10 @@ $pg = "contacto";
                     Si queres podes enviarme un mensaje por
                     whatsapp
                 </p>
-                <p class="mt-5">¡Escanea el código y contactame!</p>
-                <a href="https://wa.me/5491150571913?text=hola!%20Quisiera%20contactar" target="_blank" title="codigo qr">
-                    <img src="images/qr.jpg" alt="codigo qr" class="qr ms-5 my-sm-2 mb-5">
-                </a>
+                <p class="mb-3">¡Escanea el código!</p>
+                    <a href="https://wa.me/5491150571913?text=hola!%20Quisiera%20contactar" target="_blank" title="codigo qr">
+                        <img src="images/qr.jpg" alt="codigo qr" class="qr ms-5 my-sm-2 mb-5">
+                    </a>
             </div>
 
 

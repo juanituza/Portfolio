@@ -41,7 +41,7 @@ $cabeceras .= 'From: info@jmckenna.com.ar' . "\r\n";
 
 
 // Enviarlo
-header('location: confirmacion-envio-EN.php');
+header('location: confirmacion-envio-en.php');
 
 
 }
