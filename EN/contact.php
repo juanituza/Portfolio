@@ -2,6 +2,54 @@
 
 $pg = "contact";
 
+
+if ($_POST) {
+
+  $nombre = $_POST["txtNombre"];
+  $correo = $_POST["txtCorreo"];
+  $telefono = $_POST["txtTelefono"];
+  $mensaje = $_POST["txtMensaje"];
+
+
+if (isset($_POST["btnEnviar"])) {
+  
+
+
+
+$para  = 'juanituza85@gmail.com' . ', ';
+
+
+// título
+$título = 'Contacto desde portfolio Juan Mc Kenna';
+
+// mensaje
+$mensaje = '
+nombre: $nombre <br>;
+correo: $correo <br>;
+telefono: $telefono <br>;
+mensaje: $mensaje <br>;
+
+';
+
+
+$cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+$cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
+
+// Cabeceras adicionales
+$cabeceras .= 'To: juanituza85@gmail.com' . "\r\n";
+$cabeceras .= 'From: info@jmckenna.com.ar' . "\r\n";
+
+
+// Enviarlo
+header('location: confirmacion-envio-EN.php');
+
+
+}
+}
+
+
+?>
+
 ?>
 
 
