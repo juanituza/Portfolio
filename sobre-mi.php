@@ -41,7 +41,7 @@ $pg = "sobre-mi";
           </div>
         </div>
 
-        <div class="col-12 col-sm-4 mt-4 offset-sm-2 borde">
+        <div class="col-12 col-sm-4 mt-4 offset-sm-2 borde text-color">
           <img src="images/perfil3.jpg" alt="Juan Mc kenna" class="img-fluid img-circle" />
         </div>
       </div>
